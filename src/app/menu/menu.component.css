@@ -1,0 +1,36 @@
+.nav {
+    background-color: none;
+    height: 50px;
+    width: 500px;
+    /* box-shadow: 0 0 5px #000; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.user {
+    font-size: medium;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.user:hover {
+    color: #fff;
+    background-color: #182c9be4;
+    border-radius: 5px;
+}
+
+.sign-up {
+    top: 10px;
+    font-size: medium;
+    font-weight: bold;
+    background-color: #182c9be4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
